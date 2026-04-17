@@ -1,0 +1,46 @@
+.footer {
+  background-color: #e3d6f2;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 207px;
+  align-items: center;
+}
+
+svg {
+  display: block;
+}
+
+.nav-column {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-column > li > a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.contact-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style: none;
+}
+
+.contact-column > li,
+.contact-column > li > a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #000000;
+  text-decoration: none;
+}
