@@ -26,7 +26,7 @@ export default function Footer() {
               <a href="">Cтатті з порадами</a>
             </li>
             <li>
-              <a href="">Чек-листи</a>
+              <a href="">Історії</a>
             </li>
           </ul>
           <ul className="contact-column">
