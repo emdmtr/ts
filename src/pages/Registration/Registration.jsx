@@ -1,13 +1,13 @@
 import "./Registration.css";
 
-export default function Quote() {
+export default function Registration() {
   return (
     <section className="registration-section">
       <div className="registration-container">
         <div className="left-side">
           <h2 className="header">Реєстрація</h2>
           <form action="">
-            <input type="text" name="nickName" placeholder="Нікнейм" />
+            <input type="text" name="email" placeholder="Пошта" />
             <input type="password" name="password" placeholder="Пароль" />
             <input
               type="password"
@@ -19,7 +19,10 @@ export default function Quote() {
             Зареєструватись
           </button>
           <p className="already-registered">
-            Вже зареєстровані? <a className="login-link" href="#">Увійти</a>
+            Вже зареєстровані?{" "}
+            <a className="login-link" href="#">
+              Увійти
+            </a>
           </p>
         </div>
         <img

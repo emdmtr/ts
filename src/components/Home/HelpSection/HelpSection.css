@@ -1,0 +1,104 @@
+/* HelpSection Component Styles */
+.help-section {
+  background-color: #e6dffc;
+  padding: 159px 0 150px;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.help-title {
+  font-size: 45px;
+  margin-bottom: 108px;
+  color: #390f43;
+  font-weight: 700;
+}
+
+.cards-fan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30.34px;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.help-card {
+  background: #ffffff;
+  width: 327px;
+  height: 450px;
+  border-radius: 30px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.help-card h3 {
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 43.5px;
+  font-weight: 400;
+}
+
+.help-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.card-inner-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.card-inner-list li {
+  margin-bottom: 5px;
+}
+
+.card-footer {
+  margin-top: auto;
+  font-size: 13px;
+  color: #555555;
+  line-height: 1.4;
+  padding-top: 15px;
+}
+
+.card-1 {
+  transform: rotate(-8deg) translateY(40px);
+}
+
+.card-2 {
+  transform: rotate(-4deg) translateY(15px);
+}
+
+.card-3 {
+  transform: rotate(0deg);
+  z-index: 5;
+}
+
+.card-4 {
+  transform: rotate(4deg) translateY(15px);
+}
+
+.card-5 {
+  transform: rotate(8deg) translateY(40px);
+}
+
+.help-card:hover {
+  transform: rotate(0deg) translateY(-15px);
+  z-index: 10;
+}

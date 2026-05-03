@@ -1,0 +1,65 @@
+/* InfoSection Component Styles */
+.info-section {
+  background-color: #ffffff;
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.info-container {
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 85px;
+}
+
+.info-text {
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.info-text h2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--dark-purple);
+  margin: 10px 0;
+}
+
+.info-text p {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--dark-purple);
+}
+
+.info-text a {
+  color: #af97e3;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.info-text a:hover {
+  border-bottom: 1px solid #af97e3;
+}
+
+.info-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.info-image img {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}

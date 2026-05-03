@@ -1,0 +1,25 @@
+/* Shared Home page styles */
+.btn-filled {
+  width: 748px;
+  height: 82px;
+  background-color: var(--primary-purple);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  margin: 0;
+  color: #ffffff;
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn-filled:hover {
+  background-color: #9d83d1;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(175, 151, 227, 0.4);
+}

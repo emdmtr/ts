@@ -1,0 +1,32 @@
+/* Header Component Styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1522px;
+  margin: 0 auto;
+  padding: 74px 20px 20px;
+  width: 100%;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+}
+
+.btn-outline {
+  width: 198px;
+  height: 60px;
+  background: transparent;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
