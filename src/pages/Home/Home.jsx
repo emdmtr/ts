@@ -12,6 +12,7 @@ import Authorization from "../Authorization/Authorization";
 import Footer from "../../components/Footer/Footer";
 import Profile from "../Profile/Profile";
 import Error404 from "../not-found/not-found";
+import Result from "../Result/Result";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         <Footer />
         <Profile />
         <Error404 />
+        <Result />
       </main>
     </>
   );
